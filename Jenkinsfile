@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-credentials-id', url: 'https://github.com/yourname/python-docker-app.git'
+                git credentialsId: 'seshuadi969', url: 'https://github.com/seshuadi969/jenkins.git'
             }
         }
 
