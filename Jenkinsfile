@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'seshuadi969', url: 'https://github.com/seshuadi969/jenkins.git'
+                git credentialsId: 'a51f3210-e545-41a5-ad60-1e441c0ceecb', url: 'https://github.com/seshuadi969/jenkins.git'
             }
         }
 
